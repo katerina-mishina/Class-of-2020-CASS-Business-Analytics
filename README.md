@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## print("Congratulations, You Made It!")
 
 You can use the [editor on GitHub](https://github.com/katerina-mishina/Class-of-2020-CASS-Business-Analytics/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
