@@ -5,11 +5,11 @@
 Replace `<YOUR-USERNAME>` with your GitHub username in this guide.
 
 ## 1. Create the folder _data/YOUR-USERNAME/ 
-Fork this repository, create a new folder inside the `data` folder, and name it with your username. It should look something like this `_data/<YOUR-USERNAME>/`. Ex.
+Fork this repository, create a new folder inside the `data` folder, and name it with your username. It should look something like this `data/<YOUR-USERNAME>/`. Ex.
 
 
 ```
-_data/MonaTheOctocat/
+data/MonaTheOctocat/
 ```
 
 ## 2. Add your profile picture to the folder
@@ -17,7 +17,7 @@ Enter the folder you just created and add a profile picture of your choice. Acce
 
 
 ```
-_data/MonaTheOctocat/mona.png
+data/MonaTheOctocat/mona.png
 ```
 
 _Be aware, this picture will be displayed on the yearbook!_
@@ -26,15 +26,19 @@ _Be aware, this picture will be displayed on the yearbook!_
 Create a markdown file in your folder following the convention `<YOUR-USERNAME>.md`. Ex.
 
 ```
-_data/MonaTheOctocat/MonaTheOctocat.md
+data/MonaTheOctocat/MonaTheOctocat.md
 ```
 Copy the next template into your file, delete the boilerplate data and fill the information with yours.
 ```
 ---
 name: FULLNAME-OR-NICKNAME # No longer than 28 characters
-institution: INSTITUTION-NAME 🚩 # no longer than 58 characters
+country: COUNTRY-NAME 🚩 # no longer than 58 characters
 profile_pic: mona.png # Name and extension of your profile picture(ex. mona.png) The picture must be squared and 544px on width and height.
 quote: YOUR-SENIOR-QUOTE # no longer than 100 characters, avoid using quotes(") to guarantee the format remains the same.
+best memory: # no longer than 100 characters, avoid using quotes(") to guarantee the format remains the same.
+proudest achievement: # no longer than 100 characters, avoid using quotes(") to guarantee the format remains the same.
+favourite place in London:
+best advice I was given:
 github_user: YOUR-GITHUB-USERNAME
 ---
 ```
